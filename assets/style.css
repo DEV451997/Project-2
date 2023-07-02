@@ -47,3 +47,25 @@
 
 /*********** Slider styling ***********/
 
+
+/*********** information card styling ***********/
+.row {
+    margin: 0;
+    padding: 0;
+    border: solid 10px whitesmoke;
+}
+
+
+.row img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.information, h3, p {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-size: 110%;
+}
