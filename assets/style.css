@@ -13,7 +13,7 @@
 }
 
 .navbar a {
-    font-size: 110%;
+    font-size: 150%;
     padding: 15px;
     color: brown;
 }
@@ -75,13 +75,22 @@
 }
 
 
+/*********** Clock styling ***********/
+
+#clock, .local-time {
+    width: 100%;
+    font-size: 150%;
+    color: brown;
+    display: grid;
+    place-items: center;
+}
+
 
 
 
 
 /*********** information card styling ***********/
 .row {
-
     border: solid 10px whitesmoke;
     display: grid;
     place-items: center;
@@ -102,3 +111,4 @@ p {
 
     font-size: 110%;
 }
+

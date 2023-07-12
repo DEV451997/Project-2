@@ -10,7 +10,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 
-<body>
+<body onload="startTime()">
 
     <!--Navigation Bar-->
 
@@ -29,9 +29,17 @@
     <!--- Weather API before Information cards, float right. --->
 
     <div class="row">
+        <h6 class="local-time">Local Time</h6>
+        <div class="col-md-12" id="clock">
+            
+        </div>
+    </div>
+
+    <div class="row" style="margin: 0;">
         <div class="col-md-5">
             <img src="/assets/images/ROME.jpg" alt="Colloseum">
         </div>
+        
 
         <div class="col-md-7 information">
             <h3>About</h3>
@@ -39,12 +47,11 @@
                 praesentium expedita eligendi vitae autem? Assumenda nemo perferendis accusantium nulla recusandae
                 similique error voluptatum ipsa!</p>
         </div>
+        
     </div>
 
-    <div class="row">
-        <div class="col-md-5">
-            <img src="/assets/images/ROME.jpg" alt="Colloseum">
-        </div>
+    <div class="row" style="margin: 0;">
+        
 
         <div class="col-md-7 information">
             <h3>Things to do</h3>
@@ -52,9 +59,12 @@
                 praesentium expedita eligendi vitae autem? Assumenda nemo perferendis accusantium nulla recusandae
                 similique error voluptatum ipsa!</p>
         </div>
+        <div class="col-md-5">
+            <img src="/assets/images/ROME.jpg" alt="Colloseum">
+        </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin: 0;">
         <div class="col-md-5">
             <img src="/assets/images/ROME.jpg" alt="Colloseum">
         </div>
@@ -67,16 +77,17 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-5">
-            <img src="/assets/images/ROME.jpg" alt="Colloseum">
-        </div>
+    <div class="row" style="margin: 0;">
+        
 
         <div class="col-md-7 information">
             <h3>Places to stay</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum beatae harum saepe, qui distinctio facere
                 praesentium expedita eligendi vitae autem? Assumenda nemo perferendis accusantium nulla recusandae
                 similique error voluptatum ipsa!</p>
+        </div>
+        <div class="col-md-5">
+            <img src="/assets/images/ROME.jpg" alt="Colloseum">
         </div>
     </div>
 
@@ -85,7 +96,11 @@
     <!--- Expedia API? --->
     <!--- Currency converter API --->
     
+    
+    
 
 </body>
+
+<script src="java.js"></script>
 
 </html>
